@@ -1,7 +1,7 @@
-package JavaBasics;
+//package JavaBasics;
 import java.util.Scanner;
 public class Pattern2{
-    public static void main(int n){
+    public static void main(){
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for(int i = 0; i < n; i++){
@@ -11,7 +11,7 @@ public class Pattern2{
                 else
                 System.out.print(" ");
             }
-            System.out.ptintln();
+            System.out.println();
         }
     }
  }
